@@ -24,7 +24,7 @@ $(document).ready(function ($) {
     spaceBetween: 20,
     loop: true,
     autoplay: {
-      delay: 3000,
+      delay: 3001,
       disableOnInteraction: false,
     },
     speed: 2000,
@@ -52,7 +52,7 @@ $(document).ready(function ($) {
     spaceBetween: 30,
     loop: true,
     autoplay: {
-      delay: 3000,
+      delay: 3001,
       disableOnInteraction: false,
     },
     speed: 2000,

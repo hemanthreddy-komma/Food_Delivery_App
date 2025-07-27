@@ -1,1 +1,41 @@
-node_modules
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv files (DB credentials, API keys)
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+logs/*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# IDE/editor-specific
+.vscode/
+.idea/
+
+# Test coverage and build output
+coverage/
+build/
+dist/
+
+# MySQL dump or raw SQL files (if sensitive)
+*.sql
+
+# Optional: Uploaded files
+uploads/
+tmp/
+
+# Optional: Passport or session cache (if used)
+sessions/
